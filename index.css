@@ -1,0 +1,639 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 60rem;
+    background-position-x: 57rem;
+    background-position-y: -10rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+header{
+    background-image: linear-gradient( #ffff, #ffff, #ffff, #ffff, #ffff, transparent);
+    height: 40px;
+    padding: 3rem 11rem;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+header > .parent-container{
+    display: flex;
+    gap: 13rem;
+}
+
+header > .parent-container > a > img{
+    width: 150px;
+}
+
+header > .parent-container > .link-container {
+    display: flex;
+    gap: 3rem;
+}
+
+header > .parent-container > .link-container > a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: hsl(228, 39%, 23%);
+}
+
+header > .parent-container > .link-container > a:hover{
+    color: hsl(227, 12%, 61%);
+}
+
+header > .parent-container > button{
+    width: 130px;
+    height: 43px;
+    padding: 10px 15px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.9rem;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 30px;
+    border-style: none;
+    margin-top: -10px;
+}
+
+header > .parent-container > button:hover{
+    background-color: hsl(12, 88%, 63%);
+}
+
+header > .parent-container > img{
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+
+main{
+    padding: 3rem 11rem;
+}
+
+main > .left-top{
+    position: relative;
+    top: 9rem;
+    width: 510px;
+}
+
+main > .left-top > h1{
+    font-size: 4.2rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: hsl(234, 26%, 24%);
+}
+
+main > .left-top > p{
+    font-size: 1.36rem;
+    color: hsl(227, 12%, 61%);
+}
+
+main > .left-top > button{
+    width: 130px;
+    height: 43px;
+    padding: 10px 15px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.9rem;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 30px;
+    border-style: none;
+}
+
+main > .left-top >button:hover{
+    background-color: hsl(12, 88%, 63%);
+}
+
+main > .right-top{
+    width: 500px;
+    margin-left: 45rem;
+    margin-top: -21rem;
+}
+
+main > .right-top > img{
+    width: 570px;
+}
+
+main > .left-center{
+    margin-top: 10rem;
+    width: 500px;
+}
+
+main > .left-center > h2{
+    font-size: 3.1rem;
+    color: hsl(234, 26%, 24%);
+}
+
+main > .left-center > p{
+    font-size: 1.3rem;
+    color: hsl(227, 12%, 61%);
+}
+
+main > .right-center{
+    margin-left: 45rem;
+    margin-top: -15rem;
+    display: grid;
+    gap: 3rem; 
+}
+
+main > .right-center > div{
+    padding: 10px;
+}
+
+main > .right-center > div > span{
+    display: flex;
+    gap: 2rem;
+}
+
+main > .right-center > div > span h3{
+    color: hsl(234, 26%, 24%);
+}
+
+
+main > .right-center > div > span > button{
+    width: 55px;
+    height: 30px;
+    padding: 5px 5px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.9rem;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 30px;
+    border-style: none;
+    margin-top: -5px;
+}
+
+main > .right-center > div > p{
+    font-size: 1.1rem;
+    color: hsl(227, 12%, 61%);
+    line-height: 20px;
+    margin-left: 6rem;
+}
+
+nav{
+    background-image: url(bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 60rem;
+    background-position-x: -37rem;
+    background-position-y: 1rem;
+    margin-top: -20rem;
+}
+
+nav > .parent-bottom{
+    display: block;
+    position: relative;
+    top: 40rem;
+    background-color: none;
+}
+
+nav > .parent-bottom > h2{
+    font-size: 2.4rem;
+    text-align: center;
+    position: relative;
+    top: -120px;
+    color: hsl(234, 26%, 24%);
+}
+
+nav > .parent-bottom > .child{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav > .parent-bottom > .child > .box{
+    background-color: hsl(0, 0%, 94%);
+    width: 470px;
+    height: 200px;
+    padding: 15px 15px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+nav > .parent-bottom > .child > .box > span{
+    display: block;
+}
+
+nav > .parent-bottom > .child > .box > span > img{
+    width: 70px;
+    margin-top: -160px;
+    margin-left: 13rem;
+}
+
+nav > .parent-bottom > .child > .box > span > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(234, 26%, 24%);
+    position: relative;
+    top: 30px;
+    right: 75px;
+}
+
+nav > .parent-bottom > .child > .box > p{
+    margin-top: 25px;
+    text-align: center;
+    color:  hsl(227, 12%, 61%);
+    font-size: 1.1rem;
+    line-height: 25px;
+}
+
+nav .parent-bottom button{
+    margin-left: 50rem;
+    margin-top: 40px;
+    width: 130px;
+    height: 43px;
+    padding: 10px 15px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.9rem;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 30px;
+    border-style: none;
+}
+
+nav .parent-bottom button:hover{
+    background-color: hsl(12, 88%, 63%);
+}
+
+nav > .orange{
+    background-color: hsl(12, 88%, 59%);
+    margin-top: 45rem;
+    height: 150px;
+}
+
+nav > .orange > div{
+    height: 150px;
+    padding: 10px 95px;
+}
+
+nav > .orange > div > .img-ii{
+    position: relative;
+    width: 200px;
+    opacity: 0.1;
+    top: -80px;
+    left: 67rem;
+    z-index: 1;
+}
+
+nav > .orange > div > h1{
+    position: relative;
+    top: 40px;
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-left: 4rem;
+}
+
+nav > .orange > button{
+    width: 130px;
+    height: 43px;
+    padding: 10px 15px;
+    color: hsl(12, 88%, 59%);
+    font-weight: bold;
+    font-size: 0.9rem;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border-style: none;
+    position: relative;
+    top: -7rem;
+    left: 95rem;
+
+}
+
+nav > .orange > button:hover{
+    opacity: 0.9;
+}
+    
+
+footer{
+    background-color: hsl(233, 12%, 13%);
+}
+
+footer > .parent-footer{
+    display: flex;
+    gap: 20rem;
+    justify-content: center;
+}
+
+footer > .parent-footer > .child-footer{
+    display: grid;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+footer > .parent-footer > .child-footer > .SM-logo{
+    display: flex;
+    gap: 1.2rem;
+}
+
+footer > .parent-footer > .child-footer > .SM-logo > a{
+    font-size: 1.3rem;
+    color: #ffffff;
+}
+
+footer > .parent-footer > .child-footer > .SM-logo > a:hover{
+    color: hsl(12, 88%, 59%);
+}
+
+footer > .parent-footer > .child-footer > a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+footer > .parent-footer > .child-footer > a:hover{
+    color: hsl(12, 88%, 59%);
+}
+
+footer > .parent-footer > .child-footer > div > input{
+    width: 200px;
+    height: 35px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: groove;
+    color: #000000;
+    outline: hsl(12, 88%, 59%);
+}
+
+footer > .parent-footer > .child-footer > div > input:hover{
+    outline: hsl(12, 88%, 63%);
+}
+
+footer > .parent-footer > .child-footer > div > button{
+    width: 35px;
+    height: 35px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 5px;
+}
+
+footer > .parent-footer > .child-footer > div > button:hover{
+    background-color:hsl(12, 74%, 51%) ;
+}
+
+footer > .parent-footer > .child-footer > p{
+    color: #ffffff;
+    font-size: 0.7rem;
+}
+
+
+@media screen and (max-width: 320px){
+    body{
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: 30rem;
+        background-position-x: 57rem;
+        background-position-y: -10rem;
+        font-family: 'Be Vietnam Pro', sans-serif;
+    }
+
+    header{
+        padding: 2rem 2rem;
+    }
+
+    header > .parent-container{
+        gap: 11rem;
+    }
+
+    header > .parent-container > a > img{
+        width: 100px;
+    }
+
+    header > .parent-container > .link-container {
+        display: none;
+    }
+
+    header > .parent-container > button{
+        display: none;
+    }
+
+    header > .parent-container > img{
+        display: inline;
+        height: 15px;
+        width: 15px;
+        margin-top: -2px;
+    }
+
+    main{
+        padding: 2rem 2rem;
+    }
+
+    main > .left-top{
+    
+        width: 300px;
+        margin-left: -16px;
+        margin-top: 10rem;
+        text-align: center;
+    }
+
+    main > .left-top > h1{
+        text-align: center;
+        font-size: 2.4rem;
+    }
+    
+    main > .left-top > p{
+        font-size: 1rem;
+        text-align: center;
+        line-height: 25px;
+    }
+    
+    main > .left-top > button{
+        width: 100px;
+        height: 37px;
+        font-size: 0.8rem;
+        position: relative;
+        top: -1rem;
+    }
+    
+    main > .right-top{
+        width: 270px;
+        margin-left: 0.1rem;
+        margin-top: -30rem;
+    }
+    
+    main > .right-top > img{
+        width: 270px;
+        position: relative;
+    }
+
+    main > .left-center{
+        margin-top: 25rem;
+        margin-left: -12px;
+        width: 290px;
+        text-align: center;
+    }
+    
+    main > .left-center > h2{
+        font-size: 2.2rem;
+    }
+    
+    main > .left-center > p{
+        font-size: 1rem;
+        line-height: 25px;
+    }
+    
+    main > .right-center{
+        margin-left: 0rem;
+        margin-top: 3rem;
+        display: grid;
+        gap: 2rem; 
+    }
+    
+    main > .right-center > div{
+        padding: 5px;
+        width: 290px;
+        margin-left: -15px;
+    }
+    
+    main > .right-center > div > span{
+        gap: 0rem;
+    }
+    
+    main > .right-center > div > span h3{
+        font-size: 0.9rem;
+        width: 300px;
+        height: 30px;
+        margin-top: -5px;
+        margin-left: -15px;
+        border-radius: 10px;
+        background-color: hsl(12, 52%, 94%);
+        padding: 5px 20px;
+        z-index: -1;
+    }
+    
+    main > .right-center > div > p{
+        text-align: left;
+        font-size: 0.83rem;
+        color: hsl(227, 12%, 61%);
+        margin-left: 0rem;
+    }
+
+    nav{
+        background-image: url(bg-tablet-pattern.svg);
+        background-repeat: no-repeat;
+        background-size: 60rem;
+        background-position-x: -37rem;
+        background-position-y: 1rem;
+        margin-top: -20rem;
+    }
+    
+    nav > .parent-bottom{
+        top: 30rem;
+    }
+    
+    nav > .parent-bottom > h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    nav > .parent-bottom > .child{
+        flex-wrap: wrap;
+        gap: 7rem;
+    }
+    
+    nav > .parent-bottom > .child > .box{
+        width: 270px;
+        height: 220px;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    nav > .parent-bottom > .child > .box > span{
+        display: block;
+    }
+    
+    nav > .parent-bottom > .child > .box > span > img{
+        width: 50px;
+        margin-left: 5rem;
+    }
+    
+    nav > .parent-bottom > .child > .box > span > a{
+        font-size: 0.8rem;
+        text-align: center;
+        margin-left: 12px;
+    }
+    
+    nav > .parent-bottom > .child > .box > p{
+        font-size: 0.9rem;
+    }
+    
+    nav .parent-bottom button{
+        margin-left: 7.7rem;
+        margin-top: 30px;
+        width: 100px;
+        height: 37px;
+        font-size: 0.8rem;
+    }
+    
+    nav > .orange{
+        margin-top: 35rem;
+        height: 330px;
+    }
+
+    nav > .orange > div{
+        padding: 0px 0px;
+        width: 290px;
+    }
+
+    nav > .orange > div > h1{
+        top: 60px;
+        font-size: 2.3rem;
+        margin-left: 2rem;
+        text-align: center;
+    }
+    
+    nav > .orange > button{
+        width: 100px;
+        height: 37px;
+        font-size: 0.8rem;
+        top: 5rem;
+        left: 7.5rem;
+    }
+    
+    footer > .parent-footer{
+        display: grid;
+        gap: 5rem;
+    }
+    
+    footer > .parent-footer > .child-footer{
+        display: grid;
+        gap: 2rem;
+        margin-top: 0rem;
+        text-align: center;
+    }
+
+    footer > .parent-footer > .child-footer > img{
+        margin-left: 3.5rem;
+        margin-top: 1rem;
+    }
+
+    footer > .parent-footer > .child-footer > .SM-logo{
+        margin-left: 3rem;
+    }
+
+    footer > .parent-footer > .child-footer > a{
+        font-size: 1rem;
+    }
+    
+    footer > .parent-footer > .child-footer > div > input{
+        border-radius: 15px;
+        border-style: hidden;
+    }
+
+    footer > .parent-footer > .child-footer > div > button{
+        border-radius: 10px;
+        border-style: hidden;
+    }
+    
+    footer > .parent-footer > .child-footer > p{
+        margin-top: -5rem;
+        color: #ffffff;
+        font-size: 0.7rem;
+    }
+}
